@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Input = ({ value, onChange }) => (
   <input
@@ -9,7 +9,20 @@ const Input = ({ value, onChange }) => (
   />
 );
 
-class SearchButton extends React.Component {
+const SearchButton = (props) => {
+  const [clicked, toggleClick] = useState(false);
+  return clicked ? (
+    <Input value={this.props.filter} onChange={props.onChange} />
+  ) : (
+    <input
+      style={{ width: '100px' }}
+      type="button"
+      onClick={() => toggleClick(!false)}
+    />
+  );
+};
+
+class SearchButton1 extends React.Component {
   constructor(props) {
     super(props);
     this.state = { clicked: false };

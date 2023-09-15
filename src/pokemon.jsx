@@ -1,7 +1,27 @@
 import React from 'react';
 
+const Attribute = ({ property, value }) => (
+  <div className="attribute">
+    <div className="property">{property}</div>
+    <div className="value">{value}</div>
+  </div>
+);
+
+const Types = ({ types }) => {
+  const elements = types.map((type, index) => {
+    return (
+      <span className={type} key={index}>
+        {type}
+      </span>
+    );
+  });
+
+  return <Attribute property="Types" value={elements} />;
+};
+
 const Pokemon = ({ pokemonDetails }) => {
-  const { name, weight, xp, hp, attack, defense,src } = pokemonDetails;
+  const { name, weight, types, xp, hp, attack, defense, src } = pokemonDetails;
+  const typesElement = <Types types={types} />;
 
   return (
     <div className="card">
@@ -12,6 +32,7 @@ const Pokemon = ({ pokemonDetails }) => {
         <figcaption>{name}</figcaption>
       </figure>
       <div className="attributes">
+        {typesElement}
         <div className="attribute">
           <div className="property">Weight</div>
           <div className="value">{weight}</div>

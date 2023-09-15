@@ -116,7 +116,7 @@ body {
 }
 
 .card:hover .attribute:nth-child(even) {
-  transform: translate(18em, -115px);
+  transform: translate(18em, -145px);
 }
 
 .content:has(.card:hover) .card:not(:hover) {
@@ -152,4 +152,98 @@ body {
   border: 1px solid white;
   background-color: rgba(135, 205, 233, 0.6);
   border-radius: 30px;
+}
+
+span {
+  color: white;
+  padding: 0.125em;
+  margin: 0.1em;
+  border-radius: 0.5em;
+}
+
+/* Colors for Types of Pokemon */
+.Poison,
+.Rock,
+.Ground,
+.Water,
+.Bug,
+.Normal,
+.Fighting,
+.Steel,
+.Ghost,
+.Dragon,
+.Dark {
+  color: antiquewhite;
+}
+
+.Grass {
+  background-color: rgb(155, 203, 80);
+}
+
+.Poison {
+  background-color: rgb(186, 127, 200);
+}
+
+.Rock {
+  background-color: rgb(163, 143, 33);
+}
+
+.Fire {
+  background-color: rgb(255, 125, 37);
+}
+
+.Electric {
+  background-color: rgb(238, 213, 53);
+}
+
+.Ground {
+  background-color: rgb(209, 187, 64);
+}
+
+.Water {
+  background-color: rgb(69, 146, 195);
+}
+
+.Bug {
+  background-color: rgb(110, 156, 60);
+}
+
+.Flying {
+  background-color: rgb(125, 192, 211);
+}
+
+.Normal {
+  background-color: rgb(163, 172, 175);
+}
+
+.Fairy {
+  background-color: rgb(253, 185, 233);
+}
+
+.Fighting {
+  background-color: rgb(213, 113, 35);
+}
+
+.Psychic {
+  background-color: rgb(243, 102, 185);
+}
+
+.Steel {
+  background-color: rgb(158, 183, 184);
+}
+
+.Ice {
+  background-color: rgb(81, 195, 231);
+}
+
+.Ghost {
+  background-color: rgb(123, 98, 163);
+}
+
+.Dragon {
+  background-color: rgb(241, 110, 87);
+}
+
+.Dark {
+  background-color: rgb(112, 112, 112);
 }

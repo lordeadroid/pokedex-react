@@ -16,7 +16,7 @@ class PokemonGallery extends React.Component {
 
   filteredPokemon() {
     return this.props.pokemons.filter((pokemon) =>
-      pokemon.name.toLowerCase().includes(this.state.filter)
+      pokemon.name.toLowerCase().includes(this.state.filter.toLowerCase())
     );
   }
 
@@ -64,7 +64,7 @@ class PokemonGallery extends React.Component {
         />
         {this.header()}
         <Input value={this.state.filter} onChange={this.handleChange} />
-        <Pokedex number={8} pokemons={this.filteredPokemon()} />
+        <Pokedex pokemons={this.filteredPokemon()} />
       </div>
     );
   }

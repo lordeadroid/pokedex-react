@@ -1,7 +1,7 @@
 [
   {
     "name": "Bulbasaur",
-    "types": "Grass, Poison",
+    "types": ["Grass", " Poison"],
     "hp": "45",
     "xp": "64",
     "attack": "49",
@@ -11,7 +11,7 @@
   },
   {
     "name": "Ivysaur",
-    "types": "Grass, Poison",
+    "types": ["Grass", " Poison"],
     "hp": "60",
     "xp": "142",
     "attack": "62",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Venusaur",
-    "types": "Grass, Poison",
+    "types": ["Grass", " Poison"],
     "hp": "80",
     "xp": "236",
     "attack": "82",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Charmander",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "39",
     "xp": "62",
     "attack": "52",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Charmeleon",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "58",
     "xp": "142",
     "attack": "64",
@@ -51,7 +51,7 @@
   },
   {
     "name": "Charizard",
-    "types": "Fire, Flying",
+    "types": ["Fire", " Flying"],
     "hp": "78",
     "xp": "240",
     "attack": "84",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Squirtle",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "44",
     "xp": "63",
     "attack": "48",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Wartortle",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "59",
     "xp": "142",
     "attack": "63",
@@ -81,7 +81,7 @@
   },
   {
     "name": "Blastoise",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "79",
     "xp": "239",
     "attack": "83",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Caterpie",
-    "types": "Bug",
+    "types": ["Bug"],
     "hp": "45",
     "xp": "39",
     "attack": "30",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Metapod",
-    "types": "Bug",
+    "types": ["Bug"],
     "hp": "50",
     "xp": "72",
     "attack": "20",
@@ -111,7 +111,7 @@
   },
   {
     "name": "Butterfree",
-    "types": "Bug, Flying",
+    "types": ["Bug", " Flying"],
     "hp": "60",
     "xp": "178",
     "attack": "45",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Weedle",
-    "types": "Bug, Poison",
+    "types": ["Bug", " Poison"],
     "hp": "40",
     "xp": "39",
     "attack": "35",
@@ -131,7 +131,7 @@
   },
   {
     "name": "Kakuna",
-    "types": "Bug, Poison",
+    "types": ["Bug", " Poison"],
     "hp": "45",
     "xp": "72",
     "attack": "25",
@@ -141,7 +141,7 @@
   },
   {
     "name": "Beedrill",
-    "types": "Bug, Poison",
+    "types": ["Bug", " Poison"],
     "hp": "65",
     "xp": "178",
     "attack": "90",
@@ -151,7 +151,7 @@
   },
   {
     "name": "Pidgey",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "40",
     "xp": "50",
     "attack": "45",
@@ -161,7 +161,7 @@
   },
   {
     "name": "Pidgeotto",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "63",
     "xp": "122",
     "attack": "60",
@@ -171,7 +171,7 @@
   },
   {
     "name": "Pidgeot",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "83",
     "xp": "216",
     "attack": "80",
@@ -181,7 +181,7 @@
   },
   {
     "name": "Rattata",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "30",
     "xp": "51",
     "attack": "56",
@@ -191,7 +191,7 @@
   },
   {
     "name": "Raticate",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "55",
     "xp": "145",
     "attack": "81",
@@ -201,7 +201,7 @@
   },
   {
     "name": "Spearow",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "40",
     "xp": "52",
     "attack": "60",
@@ -211,7 +211,7 @@
   },
   {
     "name": "Fearow",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "65",
     "xp": "155",
     "attack": "90",
@@ -221,7 +221,7 @@
   },
   {
     "name": "Ekans",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "35",
     "xp": "58",
     "attack": "60",
@@ -231,7 +231,7 @@
   },
   {
     "name": "Arbok",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "60",
     "xp": "157",
     "attack": "95",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Pikachu",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "35",
     "xp": "112",
     "attack": "55",
@@ -251,7 +251,7 @@
   },
   {
     "name": "Raichu",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "60",
     "xp": "218",
     "attack": "90",
@@ -261,7 +261,7 @@
   },
   {
     "name": "Sandshrew",
-    "types": "Ground",
+    "types": ["Ground"],
     "hp": "50",
     "xp": "60",
     "attack": "75",
@@ -271,7 +271,7 @@
   },
   {
     "name": "Sandslash",
-    "types": "Ground",
+    "types": ["Ground"],
     "hp": "75",
     "xp": "158",
     "attack": "100",
@@ -281,7 +281,7 @@
   },
   {
     "name": "Nidoran-f",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "55",
     "xp": "55",
     "attack": "47",
@@ -291,7 +291,7 @@
   },
   {
     "name": "Nidorina",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "70",
     "xp": "128",
     "attack": "62",
@@ -301,7 +301,7 @@
   },
   {
     "name": "Nidoqueen",
-    "types": "Poison, Ground",
+    "types": ["Poison", " Ground"],
     "hp": "90",
     "xp": "227",
     "attack": "92",
@@ -311,7 +311,7 @@
   },
   {
     "name": "Nidoran-m",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "46",
     "xp": "55",
     "attack": "57",
@@ -321,7 +321,7 @@
   },
   {
     "name": "Nidorino",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "61",
     "xp": "128",
     "attack": "72",
@@ -331,7 +331,7 @@
   },
   {
     "name": "Nidoking",
-    "types": "Poison, Ground",
+    "types": ["Poison", " Ground"],
     "hp": "81",
     "xp": "227",
     "attack": "102",
@@ -341,7 +341,7 @@
   },
   {
     "name": "Clefairy",
-    "types": "Fairy",
+    "types": ["Fairy"],
     "hp": "70",
     "xp": "113",
     "attack": "45",
@@ -351,7 +351,7 @@
   },
   {
     "name": "Clefable",
-    "types": "Fairy",
+    "types": ["Fairy"],
     "hp": "95",
     "xp": "217",
     "attack": "70",
@@ -361,7 +361,7 @@
   },
   {
     "name": "Vulpix",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "38",
     "xp": "60",
     "attack": "41",
@@ -371,7 +371,7 @@
   },
   {
     "name": "Ninetales",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "73",
     "xp": "177",
     "attack": "76",
@@ -381,7 +381,7 @@
   },
   {
     "name": "Jigglypuff",
-    "types": "Normal, Fairy",
+    "types": ["Normal", " Fairy"],
     "hp": "115",
     "xp": "95",
     "attack": "45",
@@ -391,7 +391,7 @@
   },
   {
     "name": "Wigglytuff",
-    "types": "Normal, Fairy",
+    "types": ["Normal", " Fairy"],
     "hp": "140",
     "xp": "196",
     "attack": "70",
@@ -401,7 +401,7 @@
   },
   {
     "name": "Zubat",
-    "types": "Poison, Flying",
+    "types": ["Poison", " Flying"],
     "hp": "40",
     "xp": "49",
     "attack": "45",
@@ -411,7 +411,7 @@
   },
   {
     "name": "Golbat",
-    "types": "Poison, Flying",
+    "types": ["Poison", " Flying"],
     "hp": "75",
     "xp": "159",
     "attack": "80",
@@ -421,7 +421,7 @@
   },
   {
     "name": "Oddish",
-    "types": "Grass, Poison",
+    "types": ["Grass", " Poison"],
     "hp": "45",
     "xp": "64",
     "attack": "50",
@@ -431,7 +431,7 @@
   },
   {
     "name": "Gloom",
-    "types": "Grass, Poison",
+    "types": ["Grass", " Poison"],
     "hp": "60",
     "xp": "138",
     "attack": "65",
@@ -441,7 +441,7 @@
   },
   {
     "name": "Vileplume",
-    "types": "Grass, Poison",
+    "types": ["Grass", " Poison"],
     "hp": "75",
     "xp": "221",
     "attack": "80",
@@ -451,7 +451,7 @@
   },
   {
     "name": "Paras",
-    "types": "Bug, Grass",
+    "types": ["Bug", " Grass"],
     "hp": "35",
     "xp": "57",
     "attack": "70",
@@ -461,7 +461,7 @@
   },
   {
     "name": "Parasect",
-    "types": "Bug, Grass",
+    "types": ["Bug", " Grass"],
     "hp": "60",
     "xp": "142",
     "attack": "95",
@@ -471,7 +471,7 @@
   },
   {
     "name": "Venonat",
-    "types": "Bug, Poison",
+    "types": ["Bug", " Poison"],
     "hp": "60",
     "xp": "61",
     "attack": "55",
@@ -481,7 +481,7 @@
   },
   {
     "name": "Venomoth",
-    "types": "Bug, Poison",
+    "types": ["Bug", " Poison"],
     "hp": "70",
     "xp": "158",
     "attack": "65",
@@ -491,7 +491,7 @@
   },
   {
     "name": "Diglett",
-    "types": "Ground",
+    "types": ["Ground"],
     "hp": "10",
     "xp": "53",
     "attack": "55",
@@ -501,7 +501,7 @@
   },
   {
     "name": "Dugtrio",
-    "types": "Ground",
+    "types": ["Ground"],
     "hp": "35",
     "xp": "149",
     "attack": "100",
@@ -511,7 +511,7 @@
   },
   {
     "name": "Meowth",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "40",
     "xp": "58",
     "attack": "45",
@@ -521,7 +521,7 @@
   },
   {
     "name": "Persian",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "65",
     "xp": "154",
     "attack": "70",
@@ -531,7 +531,7 @@
   },
   {
     "name": "Psyduck",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "50",
     "xp": "64",
     "attack": "52",
@@ -541,7 +541,7 @@
   },
   {
     "name": "Golduck",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "80",
     "xp": "175",
     "attack": "82",
@@ -551,7 +551,7 @@
   },
   {
     "name": "Mankey",
-    "types": "Fighting",
+    "types": ["Fighting"],
     "hp": "40",
     "xp": "61",
     "attack": "80",
@@ -561,7 +561,7 @@
   },
   {
     "name": "Primeape",
-    "types": "Fighting",
+    "types": ["Fighting"],
     "hp": "65",
     "xp": "159",
     "attack": "105",
@@ -571,7 +571,7 @@
   },
   {
     "name": "Growlithe",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "55",
     "xp": "70",
     "attack": "70",
@@ -581,7 +581,7 @@
   },
   {
     "name": "Arcanine",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "90",
     "xp": "194",
     "attack": "110",
@@ -591,7 +591,7 @@
   },
   {
     "name": "Poliwag",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "40",
     "xp": "60",
     "attack": "50",
@@ -601,7 +601,7 @@
   },
   {
     "name": "Poliwhirl",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "65",
     "xp": "135",
     "attack": "65",
@@ -611,7 +611,7 @@
   },
   {
     "name": "Poliwrath",
-    "types": "Water, Fighting",
+    "types": ["Water", " Fighting"],
     "hp": "90",
     "xp": "230",
     "attack": "95",
@@ -621,7 +621,7 @@
   },
   {
     "name": "Abra",
-    "types": "Psychic",
+    "types": ["Psychic"],
     "hp": "25",
     "xp": "62",
     "attack": "20",
@@ -631,7 +631,7 @@
   },
   {
     "name": "Kadabra",
-    "types": "Psychic",
+    "types": ["Psychic"],
     "hp": "40",
     "xp": "140",
     "attack": "35",
@@ -641,7 +641,7 @@
   },
   {
     "name": "Alakazam",
-    "types": "Psychic",
+    "types": ["Psychic"],
     "hp": "55",
     "xp": "225",
     "attack": "50",
@@ -651,7 +651,7 @@
   },
   {
     "name": "Machop",
-    "types": "Fighting",
+    "types": ["Fighting"],
     "hp": "70",
     "xp": "61",
     "attack": "80",
@@ -661,7 +661,7 @@
   },
   {
     "name": "Machoke",
-    "types": "Fighting",
+    "types": ["Fighting"],
     "hp": "80",
     "xp": "142",
     "attack": "100",
@@ -671,7 +671,7 @@
   },
   {
     "name": "Machamp",
-    "types": "Fighting",
+    "types": ["Fighting"],
     "hp": "90",
     "xp": "227",
     "attack": "130",
@@ -681,7 +681,7 @@
   },
   {
     "name": "Bellsprout",
-    "types": "Grass, Poison",
+    "types": ["Grass", " Poison"],
     "hp": "50",
     "xp": "60",
     "attack": "75",
@@ -691,7 +691,7 @@
   },
   {
     "name": "Weepinbell",
-    "types": "Grass, Poison",
+    "types": ["Grass", " Poison"],
     "hp": "65",
     "xp": "137",
     "attack": "90",
@@ -701,7 +701,7 @@
   },
   {
     "name": "Victreebel",
-    "types": "Grass, Poison",
+    "types": ["Grass", " Poison"],
     "hp": "80",
     "xp": "221",
     "attack": "105",
@@ -711,7 +711,7 @@
   },
   {
     "name": "Tentacool",
-    "types": "Water, Poison",
+    "types": ["Water", " Poison"],
     "hp": "40",
     "xp": "67",
     "attack": "40",
@@ -721,7 +721,7 @@
   },
   {
     "name": "Tentacruel",
-    "types": "Water, Poison",
+    "types": ["Water", " Poison"],
     "hp": "80",
     "xp": "180",
     "attack": "70",
@@ -731,7 +731,7 @@
   },
   {
     "name": "Geodude",
-    "types": "Rock, Ground",
+    "types": ["Rock", " Ground"],
     "hp": "40",
     "xp": "60",
     "attack": "80",
@@ -741,7 +741,7 @@
   },
   {
     "name": "Graveler",
-    "types": "Rock, Ground",
+    "types": ["Rock", " Ground"],
     "hp": "55",
     "xp": "137",
     "attack": "95",
@@ -751,7 +751,7 @@
   },
   {
     "name": "Golem",
-    "types": "Rock, Ground",
+    "types": ["Rock", " Ground"],
     "hp": "80",
     "xp": "223",
     "attack": "120",
@@ -761,7 +761,7 @@
   },
   {
     "name": "Ponyta",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "50",
     "xp": "82",
     "attack": "85",
@@ -771,7 +771,7 @@
   },
   {
     "name": "Rapidash",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "65",
     "xp": "175",
     "attack": "100",
@@ -781,7 +781,7 @@
   },
   {
     "name": "Slowpoke",
-    "types": "Water, Psychic",
+    "types": ["Water", " Psychic"],
     "hp": "90",
     "xp": "63",
     "attack": "65",
@@ -791,7 +791,7 @@
   },
   {
     "name": "Slowbro",
-    "types": "Water, Psychic",
+    "types": ["Water", " Psychic"],
     "hp": "95",
     "xp": "172",
     "attack": "75",
@@ -801,7 +801,7 @@
   },
   {
     "name": "Magnemite",
-    "types": "Electric, Steel",
+    "types": ["Electric", " Steel"],
     "hp": "25",
     "xp": "65",
     "attack": "35",
@@ -811,7 +811,7 @@
   },
   {
     "name": "Magneton",
-    "types": "Electric, Steel",
+    "types": ["Electric", " Steel"],
     "hp": "50",
     "xp": "163",
     "attack": "60",
@@ -821,7 +821,7 @@
   },
   {
     "name": "Farfetchd",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "52",
     "xp": "132",
     "attack": "90",
@@ -831,7 +831,7 @@
   },
   {
     "name": "Doduo",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "35",
     "xp": "62",
     "attack": "85",
@@ -841,7 +841,7 @@
   },
   {
     "name": "Dodrio",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "60",
     "xp": "165",
     "attack": "110",
@@ -851,7 +851,7 @@
   },
   {
     "name": "Seel",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "65",
     "xp": "65",
     "attack": "45",
@@ -861,7 +861,7 @@
   },
   {
     "name": "Dewgong",
-    "types": "Water, Ice",
+    "types": ["Water", " Ice"],
     "hp": "90",
     "xp": "166",
     "attack": "70",
@@ -871,7 +871,7 @@
   },
   {
     "name": "Grimer",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "80",
     "xp": "65",
     "attack": "80",
@@ -881,7 +881,7 @@
   },
   {
     "name": "Muk",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "105",
     "xp": "175",
     "attack": "105",
@@ -891,7 +891,7 @@
   },
   {
     "name": "Shellder",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "30",
     "xp": "61",
     "attack": "65",
@@ -901,7 +901,7 @@
   },
   {
     "name": "Cloyster",
-    "types": "Water, Ice",
+    "types": ["Water", " Ice"],
     "hp": "50",
     "xp": "184",
     "attack": "95",
@@ -911,7 +911,7 @@
   },
   {
     "name": "Gastly",
-    "types": "Ghost, Poison",
+    "types": ["Ghost", " Poison"],
     "hp": "30",
     "xp": "62",
     "attack": "35",
@@ -921,7 +921,7 @@
   },
   {
     "name": "Haunter",
-    "types": "Ghost, Poison",
+    "types": ["Ghost", " Poison"],
     "hp": "45",
     "xp": "142",
     "attack": "50",
@@ -931,7 +931,7 @@
   },
   {
     "name": "Gengar",
-    "types": "Ghost, Poison",
+    "types": ["Ghost", " Poison"],
     "hp": "60",
     "xp": "225",
     "attack": "65",
@@ -941,7 +941,7 @@
   },
   {
     "name": "Onix",
-    "types": "Rock, Ground",
+    "types": ["Rock", " Ground"],
     "hp": "35",
     "xp": "77",
     "attack": "45",
@@ -951,7 +951,7 @@
   },
   {
     "name": "Drowzee",
-    "types": "Psychic",
+    "types": ["Psychic"],
     "hp": "60",
     "xp": "66",
     "attack": "48",
@@ -961,7 +961,7 @@
   },
   {
     "name": "Hypno",
-    "types": "Psychic",
+    "types": ["Psychic"],
     "hp": "85",
     "xp": "169",
     "attack": "73",
@@ -971,7 +971,7 @@
   },
   {
     "name": "Krabby",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "30",
     "xp": "65",
     "attack": "105",
@@ -981,7 +981,7 @@
   },
   {
     "name": "Kingler",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "55",
     "xp": "166",
     "attack": "130",
@@ -991,7 +991,7 @@
   },
   {
     "name": "Voltorb",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "40",
     "xp": "66",
     "attack": "30",
@@ -1001,7 +1001,7 @@
   },
   {
     "name": "Electrode",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "60",
     "xp": "172",
     "attack": "50",
@@ -1011,7 +1011,7 @@
   },
   {
     "name": "Exeggcute",
-    "types": "Grass, Psychic",
+    "types": ["Grass", " Psychic"],
     "hp": "60",
     "xp": "65",
     "attack": "40",
@@ -1021,7 +1021,7 @@
   },
   {
     "name": "Exeggutor",
-    "types": "Grass, Psychic",
+    "types": ["Grass", " Psychic"],
     "hp": "95",
     "xp": "186",
     "attack": "95",
@@ -1031,7 +1031,7 @@
   },
   {
     "name": "Cubone",
-    "types": "Ground",
+    "types": ["Ground"],
     "hp": "50",
     "xp": "64",
     "attack": "50",
@@ -1041,7 +1041,7 @@
   },
   {
     "name": "Marowak",
-    "types": "Ground",
+    "types": ["Ground"],
     "hp": "60",
     "xp": "149",
     "attack": "80",
@@ -1051,7 +1051,7 @@
   },
   {
     "name": "Hitmonlee",
-    "types": "Fighting",
+    "types": ["Fighting"],
     "hp": "50",
     "xp": "159",
     "attack": "120",
@@ -1061,7 +1061,7 @@
   },
   {
     "name": "Hitmonchan",
-    "types": "Fighting",
+    "types": ["Fighting"],
     "hp": "50",
     "xp": "159",
     "attack": "105",
@@ -1071,7 +1071,7 @@
   },
   {
     "name": "Lickitung",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "90",
     "xp": "77",
     "attack": "55",
@@ -1081,7 +1081,7 @@
   },
   {
     "name": "Koffing",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "40",
     "xp": "68",
     "attack": "65",
@@ -1091,7 +1091,7 @@
   },
   {
     "name": "Weezing",
-    "types": "Poison",
+    "types": ["Poison"],
     "hp": "65",
     "xp": "172",
     "attack": "90",
@@ -1101,7 +1101,7 @@
   },
   {
     "name": "Rhyhorn",
-    "types": "Ground, Rock",
+    "types": ["Ground", " Rock"],
     "hp": "80",
     "xp": "69",
     "attack": "85",
@@ -1111,7 +1111,7 @@
   },
   {
     "name": "Rhydon",
-    "types": "Ground, Rock",
+    "types": ["Ground", " Rock"],
     "hp": "105",
     "xp": "170",
     "attack": "130",
@@ -1121,7 +1121,7 @@
   },
   {
     "name": "Chansey",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "250",
     "xp": "395",
     "attack": "5",
@@ -1131,7 +1131,7 @@
   },
   {
     "name": "Tangela",
-    "types": "Grass",
+    "types": ["Grass"],
     "hp": "65",
     "xp": "87",
     "attack": "55",
@@ -1141,7 +1141,7 @@
   },
   {
     "name": "Kangaskhan",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "105",
     "xp": "172",
     "attack": "95",
@@ -1151,7 +1151,7 @@
   },
   {
     "name": "Horsea",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "30",
     "xp": "59",
     "attack": "40",
@@ -1161,7 +1161,7 @@
   },
   {
     "name": "Seadra",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "55",
     "xp": "154",
     "attack": "65",
@@ -1171,7 +1171,7 @@
   },
   {
     "name": "Goldeen",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "45",
     "xp": "64",
     "attack": "67",
@@ -1181,7 +1181,7 @@
   },
   {
     "name": "Seaking",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "80",
     "xp": "158",
     "attack": "92",
@@ -1191,7 +1191,7 @@
   },
   {
     "name": "Staryu",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "30",
     "xp": "68",
     "attack": "45",
@@ -1201,7 +1201,7 @@
   },
   {
     "name": "Starmie",
-    "types": "Water, Psychic",
+    "types": ["Water", " Psychic"],
     "hp": "60",
     "xp": "182",
     "attack": "75",
@@ -1211,7 +1211,7 @@
   },
   {
     "name": "Mr-mime",
-    "types": "Psychic, Fairy",
+    "types": ["Psychic", " Fairy"],
     "hp": "40",
     "xp": "161",
     "attack": "45",
@@ -1221,7 +1221,7 @@
   },
   {
     "name": "Scyther",
-    "types": "Bug, Flying",
+    "types": ["Bug", " Flying"],
     "hp": "70",
     "xp": "100",
     "attack": "110",
@@ -1231,7 +1231,7 @@
   },
   {
     "name": "Jynx",
-    "types": "Ice, Psychic",
+    "types": ["Ice", " Psychic"],
     "hp": "65",
     "xp": "159",
     "attack": "50",
@@ -1241,7 +1241,7 @@
   },
   {
     "name": "Electabuzz",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "65",
     "xp": "172",
     "attack": "83",
@@ -1251,7 +1251,7 @@
   },
   {
     "name": "Magmar",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "65",
     "xp": "173",
     "attack": "95",
@@ -1261,7 +1261,7 @@
   },
   {
     "name": "Pinsir",
-    "types": "Bug",
+    "types": ["Bug"],
     "hp": "65",
     "xp": "175",
     "attack": "125",
@@ -1271,7 +1271,7 @@
   },
   {
     "name": "Tauros",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "75",
     "xp": "172",
     "attack": "100",
@@ -1281,7 +1281,7 @@
   },
   {
     "name": "Magikarp",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "20",
     "xp": "40",
     "attack": "10",
@@ -1291,7 +1291,7 @@
   },
   {
     "name": "Gyarados",
-    "types": "Water, Flying",
+    "types": ["Water", " Flying"],
     "hp": "95",
     "xp": "189",
     "attack": "125",
@@ -1301,7 +1301,7 @@
   },
   {
     "name": "Lapras",
-    "types": "Water, Ice",
+    "types": ["Water", " Ice"],
     "hp": "130",
     "xp": "187",
     "attack": "85",
@@ -1311,7 +1311,7 @@
   },
   {
     "name": "Ditto",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "48",
     "xp": "101",
     "attack": "48",
@@ -1321,7 +1321,7 @@
   },
   {
     "name": "Eevee",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "55",
     "xp": "65",
     "attack": "55",
@@ -1331,7 +1331,7 @@
   },
   {
     "name": "Vaporeon",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "130",
     "xp": "184",
     "attack": "65",
@@ -1341,7 +1341,7 @@
   },
   {
     "name": "Jolteon",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "65",
     "xp": "184",
     "attack": "65",
@@ -1351,7 +1351,7 @@
   },
   {
     "name": "Flareon",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "65",
     "xp": "184",
     "attack": "130",
@@ -1361,7 +1361,7 @@
   },
   {
     "name": "Porygon",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "65",
     "xp": "79",
     "attack": "60",
@@ -1371,7 +1371,7 @@
   },
   {
     "name": "Omanyte",
-    "types": "Rock, Water",
+    "types": ["Rock", " Water"],
     "hp": "35",
     "xp": "71",
     "attack": "40",
@@ -1381,7 +1381,7 @@
   },
   {
     "name": "Omastar",
-    "types": "Rock, Water",
+    "types": ["Rock", " Water"],
     "hp": "70",
     "xp": "173",
     "attack": "60",
@@ -1391,7 +1391,7 @@
   },
   {
     "name": "Kabuto",
-    "types": "Rock, Water",
+    "types": ["Rock", " Water"],
     "hp": "30",
     "xp": "71",
     "attack": "80",
@@ -1401,7 +1401,7 @@
   },
   {
     "name": "Kabutops",
-    "types": "Rock, Water",
+    "types": ["Rock", " Water"],
     "hp": "60",
     "xp": "173",
     "attack": "115",
@@ -1411,7 +1411,7 @@
   },
   {
     "name": "Aerodactyl",
-    "types": "Rock, Flying",
+    "types": ["Rock", " Flying"],
     "hp": "80",
     "xp": "180",
     "attack": "105",
@@ -1421,7 +1421,7 @@
   },
   {
     "name": "Snorlax",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "160",
     "xp": "189",
     "attack": "110",
@@ -1431,7 +1431,7 @@
   },
   {
     "name": "Articuno",
-    "types": "Ice, Flying",
+    "types": ["Ice", " Flying"],
     "hp": "90",
     "xp": "261",
     "attack": "85",
@@ -1441,7 +1441,7 @@
   },
   {
     "name": "Zapdos",
-    "types": "Electric, Flying",
+    "types": ["Electric", " Flying"],
     "hp": "90",
     "xp": "261",
     "attack": "90",
@@ -1451,7 +1451,7 @@
   },
   {
     "name": "Moltres",
-    "types": "Fire, Flying",
+    "types": ["Fire", " Flying"],
     "hp": "90",
     "xp": "261",
     "attack": "100",
@@ -1461,7 +1461,7 @@
   },
   {
     "name": "Dratini",
-    "types": "Dragon",
+    "types": ["Dragon"],
     "hp": "41",
     "xp": "60",
     "attack": "64",
@@ -1471,7 +1471,7 @@
   },
   {
     "name": "Dragonair",
-    "types": "Dragon",
+    "types": ["Dragon"],
     "hp": "61",
     "xp": "147",
     "attack": "84",
@@ -1481,7 +1481,7 @@
   },
   {
     "name": "Dragonite",
-    "types": "Dragon, Flying",
+    "types": ["Dragon", " Flying"],
     "hp": "91",
     "xp": "270",
     "attack": "134",
@@ -1491,7 +1491,7 @@
   },
   {
     "name": "Mewtwo",
-    "types": "Psychic",
+    "types": ["Psychic"],
     "hp": "106",
     "xp": "306",
     "attack": "110",
@@ -1501,7 +1501,7 @@
   },
   {
     "name": "Mew",
-    "types": "Psychic",
+    "types": ["Psychic"],
     "hp": "100",
     "xp": "270",
     "attack": "100",
@@ -1511,7 +1511,7 @@
   },
   {
     "name": "Chikorita",
-    "types": "Grass",
+    "types": ["Grass"],
     "hp": "45",
     "xp": "64",
     "attack": "49",
@@ -1521,7 +1521,7 @@
   },
   {
     "name": "Bayleef",
-    "types": "Grass",
+    "types": ["Grass"],
     "hp": "60",
     "xp": "142",
     "attack": "62",
@@ -1531,7 +1531,7 @@
   },
   {
     "name": "Meganium",
-    "types": "Grass",
+    "types": ["Grass"],
     "hp": "80",
     "xp": "236",
     "attack": "82",
@@ -1541,7 +1541,7 @@
   },
   {
     "name": "Cyndaquil",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "39",
     "xp": "62",
     "attack": "52",
@@ -1551,7 +1551,7 @@
   },
   {
     "name": "Quilava",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "58",
     "xp": "142",
     "attack": "64",
@@ -1561,7 +1561,7 @@
   },
   {
     "name": "Typhlosion",
-    "types": "Fire",
+    "types": ["Fire"],
     "hp": "78",
     "xp": "240",
     "attack": "84",
@@ -1571,7 +1571,7 @@
   },
   {
     "name": "Totodile",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "50",
     "xp": "63",
     "attack": "65",
@@ -1581,7 +1581,7 @@
   },
   {
     "name": "Croconaw",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "65",
     "xp": "142",
     "attack": "80",
@@ -1591,7 +1591,7 @@
   },
   {
     "name": "Feraligatr",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "85",
     "xp": "239",
     "attack": "105",
@@ -1601,7 +1601,7 @@
   },
   {
     "name": "Sentret",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "35",
     "xp": "43",
     "attack": "46",
@@ -1611,7 +1611,7 @@
   },
   {
     "name": "Furret",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "85",
     "xp": "145",
     "attack": "76",
@@ -1621,7 +1621,7 @@
   },
   {
     "name": "Hoothoot",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "60",
     "xp": "52",
     "attack": "30",
@@ -1631,7 +1631,7 @@
   },
   {
     "name": "Noctowl",
-    "types": "Normal, Flying",
+    "types": ["Normal", " Flying"],
     "hp": "100",
     "xp": "158",
     "attack": "50",
@@ -1641,7 +1641,7 @@
   },
   {
     "name": "Ledyba",
-    "types": "Bug, Flying",
+    "types": ["Bug", " Flying"],
     "hp": "40",
     "xp": "53",
     "attack": "20",
@@ -1651,7 +1651,7 @@
   },
   {
     "name": "Ledian",
-    "types": "Bug, Flying",
+    "types": ["Bug", " Flying"],
     "hp": "55",
     "xp": "137",
     "attack": "35",
@@ -1661,7 +1661,7 @@
   },
   {
     "name": "Spinarak",
-    "types": "Bug, Poison",
+    "types": ["Bug", " Poison"],
     "hp": "40",
     "xp": "50",
     "attack": "60",
@@ -1671,7 +1671,7 @@
   },
   {
     "name": "Ariados",
-    "types": "Bug, Poison",
+    "types": ["Bug", " Poison"],
     "hp": "70",
     "xp": "140",
     "attack": "90",
@@ -1681,7 +1681,7 @@
   },
   {
     "name": "Crobat",
-    "types": "Poison, Flying",
+    "types": ["Poison", " Flying"],
     "hp": "85",
     "xp": "241",
     "attack": "90",
@@ -1691,7 +1691,7 @@
   },
   {
     "name": "Chinchou",
-    "types": "Water, Electric",
+    "types": ["Water", " Electric"],
     "hp": "75",
     "xp": "66",
     "attack": "38",
@@ -1701,7 +1701,7 @@
   },
   {
     "name": "Lanturn",
-    "types": "Water, Electric",
+    "types": ["Water", " Electric"],
     "hp": "125",
     "xp": "161",
     "attack": "58",
@@ -1711,7 +1711,7 @@
   },
   {
     "name": "Pichu",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "20",
     "xp": "41",
     "attack": "40",
@@ -1721,7 +1721,7 @@
   },
   {
     "name": "Cleffa",
-    "types": "Fairy",
+    "types": ["Fairy"],
     "hp": "50",
     "xp": "44",
     "attack": "25",
@@ -1731,7 +1731,7 @@
   },
   {
     "name": "Igglybuff",
-    "types": "Normal, Fairy",
+    "types": ["Normal", " Fairy"],
     "hp": "90",
     "xp": "42",
     "attack": "30",
@@ -1741,7 +1741,7 @@
   },
   {
     "name": "Togepi",
-    "types": "Fairy",
+    "types": ["Fairy"],
     "hp": "35",
     "xp": "49",
     "attack": "20",
@@ -1751,7 +1751,7 @@
   },
   {
     "name": "Togetic",
-    "types": "Fairy, Flying",
+    "types": ["Fairy", " Flying"],
     "hp": "55",
     "xp": "142",
     "attack": "40",
@@ -1761,7 +1761,7 @@
   },
   {
     "name": "Natu",
-    "types": "Psychic, Flying",
+    "types": ["Psychic", " Flying"],
     "hp": "40",
     "xp": "64",
     "attack": "50",
@@ -1771,7 +1771,7 @@
   },
   {
     "name": "Xatu",
-    "types": "Psychic, Flying",
+    "types": ["Psychic", " Flying"],
     "hp": "65",
     "xp": "165",
     "attack": "75",
@@ -1781,7 +1781,7 @@
   },
   {
     "name": "Mareep",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "55",
     "xp": "56",
     "attack": "40",
@@ -1791,7 +1791,7 @@
   },
   {
     "name": "Flaaffy",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "70",
     "xp": "128",
     "attack": "55",
@@ -1801,7 +1801,7 @@
   },
   {
     "name": "Ampharos",
-    "types": "Electric",
+    "types": ["Electric"],
     "hp": "90",
     "xp": "230",
     "attack": "75",
@@ -1811,7 +1811,7 @@
   },
   {
     "name": "Bellossom",
-    "types": "Grass",
+    "types": ["Grass"],
     "hp": "75",
     "xp": "221",
     "attack": "80",
@@ -1821,7 +1821,7 @@
   },
   {
     "name": "Marill",
-    "types": "Water, Fairy",
+    "types": ["Water", " Fairy"],
     "hp": "70",
     "xp": "88",
     "attack": "20",
@@ -1831,7 +1831,7 @@
   },
   {
     "name": "Azumarill",
-    "types": "Water, Fairy",
+    "types": ["Water", " Fairy"],
     "hp": "100",
     "xp": "189",
     "attack": "50",
@@ -1841,7 +1841,7 @@
   },
   {
     "name": "Sudowoodo",
-    "types": "Rock",
+    "types": ["Rock"],
     "hp": "70",
     "xp": "144",
     "attack": "100",
@@ -1851,7 +1851,7 @@
   },
   {
     "name": "Politoed",
-    "types": "Water",
+    "types": ["Water"],
     "hp": "90",
     "xp": "225",
     "attack": "75",
@@ -1861,7 +1861,7 @@
   },
   {
     "name": "Hoppip",
-    "types": "Grass, Flying",
+    "types": ["Grass", " Flying"],
     "hp": "35",
     "xp": "50",
     "attack": "35",
@@ -1871,7 +1871,7 @@
   },
   {
     "name": "Skiploom",
-    "types": "Grass, Flying",
+    "types": ["Grass", " Flying"],
     "hp": "55",
     "xp": "119",
     "attack": "45",
@@ -1881,7 +1881,7 @@
   },
   {
     "name": "Jumpluff",
-    "types": "Grass, Flying",
+    "types": ["Grass", " Flying"],
     "hp": "75",
     "xp": "207",
     "attack": "55",
@@ -1891,7 +1891,7 @@
   },
   {
     "name": "Aipom",
-    "types": "Normal",
+    "types": ["Normal"],
     "hp": "55",
     "xp": "72",
     "attack": "70",
@@ -1901,7 +1901,7 @@
   },
   {
     "name": "Sunkern",
-    "types": "Grass",
+    "types": ["Grass"],
     "hp": "30",
     "xp": "36",
     "attack": "30",
@@ -1911,7 +1911,7 @@
   },
   {
     "name": "Sunflora",
-    "types": "Grass",
+    "types": ["Grass"],
     "hp": "75",
     "xp": "149",
     "attack": "75",
@@ -1921,7 +1921,7 @@
   },
   {
     "name": "Yanma",
-    "types": "Bug, Flying",
+    "types": ["Bug", " Flying"],
     "hp": "65",
     "xp": "78",
     "attack": "65",
@@ -1931,7 +1931,7 @@
   },
   {
     "name": "Wooper",
-    "types": "Water, Ground",
+    "types": ["Water", " Ground"],
     "hp": "55",
     "xp": "42",
     "attack": "45",
@@ -1941,7 +1941,7 @@
   },
   {
     "name": "Quagsire",
-    "types": "Water, Ground",
+    "types": ["Water", " Ground"],
     "hp": "95",
     "xp": "151",
     "attack": "85",
@@ -1951,7 +1951,7 @@
   },
   {
     "name": "Espeon",
-    "types": "Psychic",
+    "types": ["Psychic"],
     "hp": "65",
     "xp": "184",
     "attack": "65",
@@ -1961,7 +1961,7 @@
   },
   {
     "name": "Umbreon",
-    "types": "Dark",
+    "types": ["Dark"],
     "hp": "95",
     "xp": "184",
     "attack": "65",
@@ -1971,7 +1971,7 @@
   },
   {
     "name": "Murkrow",
-    "types": "Dark, Flying",
+    "types": ["Dark", " Flying"],
     "hp": "60",
     "xp": "81",
     "attack": "85",
@@ -1981,7 +1981,7 @@
   },
   {
     "name": "Slowking",
-    "types": "Water, Psychic",
+    "types": ["Water", " Psychic"],
     "hp": "95",
     "xp": "172",
     "attack": "75",
