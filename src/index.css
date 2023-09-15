@@ -127,3 +127,19 @@ body {
 .content:has(.card:hover) .card:not(:hover) {
   filter: blur(0.5em);
 }
+
+.load-more-button {
+  font-size: 1.5em;
+  color: white;
+  width: 280px;
+  height: fit-content;
+  padding: 20px;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  border: 1px solid white;
+  background-color: rgba(135, 205, 233, 0.6);
+  border-radius: 30px;
+}

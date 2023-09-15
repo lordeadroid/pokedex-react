@@ -1,5 +1,5 @@
 import Pokedex from './pokedex';
 
-const App = () => <Pokedex />;
+const App = () => <Pokedex number={8} />;
 
 export default App;
