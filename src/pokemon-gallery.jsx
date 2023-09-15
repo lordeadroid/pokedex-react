@@ -16,7 +16,7 @@ class PokemonGallery extends React.Component {
 
   filteredPokemon() {
     return this.props.pokemons.filter((pokemon) =>
-      pokemon.name.includes(this.state.filter)
+      pokemon.name.toLowerCase().includes(this.state.filter)
     );
   }
 
