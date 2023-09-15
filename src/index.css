@@ -129,10 +129,11 @@ body {
 }
 
 .load-more-button {
+  margin: 50px auto;
   font-size: 1.5em;
   color: white;
-  width: 280px;
-  height: fit-content;
+  width: 1150px;
+  height: 60px;
   padding: 20px;
   display: flex;
   align-self: center;
@@ -145,8 +146,6 @@ body {
 }
 
 .load-more-button:hover {
-  z-index: 1;
-  transform: scale(1.05);
   box-shadow: 0px 0px 50px white;
   cursor: pointer;
 }
