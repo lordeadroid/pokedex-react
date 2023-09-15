@@ -1,5 +1,6 @@
 import React from 'react';
 import Pokemon from './pokemon';
+import NotFound from './not-found';
 
 class Pokedex extends React.Component {
   constructor(props) {
@@ -17,7 +18,11 @@ class Pokedex extends React.Component {
       return <Pokemon pokemonDetails={pokemonDetails} key={index} />;
     });
 
-    return <div className="content">{pokemons}</div>;
+    return pokemons.length === 0 ? (
+      <NotFound />
+    ) : (
+      <div className="content">{pokemons}</div>
+    );
   }
 }
 

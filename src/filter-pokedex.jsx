@@ -21,17 +21,12 @@ class PokemonGallery extends React.Component {
 
   render() {
     return (
-      <div className="page">
-        <div className="pokedex-logo">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5M0BOtxmfhtmI84X8C5T37LLnd8Z68dOJ8g&usqp=CAU"
-            alt="pokedex-logo"
-          />
-          <Input
-            value={this.state.filter}
-            onChange={this.handleChange}
-          />
-        </div>
+      <div className="pokedex-logo">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5M0BOtxmfhtmI84X8C5T37LLnd8Z68dOJ8g&usqp=CAU"
+          alt="pokedex-logo"
+        />
+        <Input value={this.state.filter} onChange={this.handleChange} />
         <Pokedex number={8} pokemons={this.filteredPokemon()} />
       </div>
     );
