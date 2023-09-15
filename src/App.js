@@ -1,5 +1,5 @@
 import * as data from './template.json';
-import PokemonGallery from './filter-pokedex';
+import PokemonGallery from './pokemon-gallery';
 
 const pokemons = data.default;
 

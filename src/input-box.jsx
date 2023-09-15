@@ -2,9 +2,10 @@ import React from 'react';
 
 const Input = ({ value, onChange }) => (
   <input
+    type="search"
+    className="search-box"
     value={value}
     onChange={(event) => onChange(event.target.value)}
-    className="load-more-button"
   />
 );
 
