@@ -117,11 +117,11 @@ body {
 }
 
 .card:hover .attribute:nth-child(odd) {
-  transform: translate(-18em, -80px);
+  transform: translate(-18em, -110px);
 }
 
 .card:hover .attribute:nth-child(even) {
-  transform: translate(18em, -85px);
+  transform: translate(18em, -115px);
 }
 
 .content:has(.card:hover) .card:not(:hover) {
@@ -142,4 +142,11 @@ body {
   border: 1px solid white;
   background-color: rgba(135, 205, 233, 0.6);
   border-radius: 30px;
+}
+
+.load-more-button:hover {
+  z-index: 1;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 50px white;
+  cursor: pointer;
 }
