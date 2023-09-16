@@ -21,7 +21,6 @@ const Types = ({ types }) => {
 
 const Pokemon = ({ pokemonDetails }) => {
   const { name, weight, types, xp, hp, attack, defense, src } = pokemonDetails;
-  const typesElement = <Types types={types} />;
 
   return (
     <div className="card">
@@ -32,27 +31,12 @@ const Pokemon = ({ pokemonDetails }) => {
         <figcaption>{name}</figcaption>
       </figure>
       <div className="attributes">
-        {typesElement}
-        <div className="attribute">
-          <div className="property">Weight</div>
-          <div className="value">{weight}</div>
-        </div>
-        <div className="attribute">
-          <div className="property">HP</div>
-          <div className="value">{hp}</div>
-        </div>
-        <div className="attribute">
-          <div className="property">XP</div>
-          <div className="value">{xp}</div>
-        </div>
-        <div className="attribute">
-          <div className="property">Attack</div>
-          <div className="value">{attack}</div>
-        </div>
-        <div className="attribute">
-          <div className="property">Defense</div>
-          <div className="value">{defense}</div>
-        </div>
+        <Types types={types} />
+        <Attribute property="Weight" value={weight} />
+        <Attribute property="XP" value={xp} />
+        <Attribute property="HP" value={hp} />
+        <Attribute property="Attack" value={attack} />
+        <Attribute property="Defense" value={defense} />
       </div>
     </div>
   );
