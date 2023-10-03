@@ -8,14 +8,11 @@ const Attribute = ({ property, value }) => (
 );
 
 const Types = ({ types }) => {
-  const elements = types.map((type, index) => {
-    return (
-      <span className={type} key={index}>
-        {type}
-      </span>
-    );
-  });
-
+  const elements = types.map((type, index) => (
+    <span className={type} key={index}>
+      {type}
+    </span>
+  ));
   return <Attribute property="Types" value={elements} />;
 };
 
